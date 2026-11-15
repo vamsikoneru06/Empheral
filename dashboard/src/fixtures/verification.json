@@ -1,0 +1,15 @@
+{
+  "id": 88,
+  "round_id": 3,
+  "passed": true,
+  "pairs_tested": 1640,
+  "violations": 0,
+  "ran_at": "2026-11-02T08:52:00Z",
+  "assertions": {
+    "team_to_team_denied": true,
+    "target_to_scoring_denied": true,
+    "scoring_to_target_permitted": true,
+    "exercise_to_institutional_denied": true,
+    "mgmt_plane_unreachable": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "team_id": 1,
+  "name": "Team 1",
+  "score": 310.0,
+  "pod_subnet": "10.20.1.0/26",
+  "target_subnet": "10.40.1.0/26",
+  "targets": [
+    { "role": "web", "ip": "10.40.1.10", "status": "up" },
+    { "role": "db", "ip": "10.40.1.20", "status": "down" },
+    { "role": "workstation", "ip": "10.40.1.30", "status": "up" },
+    { "role": "dc", "ip": "10.40.1.40", "status": "up" },
+    { "role": "fileserver", "ip": "10.40.1.50", "status": "up" },
+    { "role": "beacon", "ip": "10.40.1.60", "status": "up" }
+  ]
+}

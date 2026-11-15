@@ -1,0 +1,7299 @@
+{
+  "matrix": {
+    "pod-1": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-10": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-11": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-12": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-13": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-14": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-15": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-16": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-2": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-3": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-4": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-5": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-6": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-7": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-8": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-9": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      }
+    },
+    "scoring": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-10": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-11": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-12": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-13": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-14": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-15": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-16": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-2": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-3": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-4": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-5": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-6": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-7": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-8": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "target-9": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      }
+    },
+    "target-1": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-10": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-11": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-12": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-13": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-14": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-15": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-16": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-2": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-3": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-4": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-5": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-6": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-7": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-8": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "pod-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-9": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-9": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "pod-9": {
+        "icmp": "permit",
+        "tcp-ack": "permit",
+        "tcp-syn": "permit",
+        "udp": "permit"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-ack": "permit",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-10": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-11": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-12": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-13": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-14": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-15": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-16": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-5": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-6": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-7": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      },
+      "target-8": {
+        "icmp": "deny",
+        "tcp-ack": "deny",
+        "tcp-syn": "deny",
+        "udp": "deny"
+      }
+    }
+  },
+  "probes": [
+    "icmp",
+    "tcp-syn",
+    "tcp-ack",
+    "udp"
+  ],
+  "profile": "production",
+  "schema": "cyberrange.expected-matrix/v1",
+  "segments": [
+    {
+      "cidr": "10.20.1.0/26",
+      "kind": "pod",
+      "name": "pod-1",
+      "representative_ip": "10.20.1.10",
+      "team": 1,
+      "vlan": 101
+    },
+    {
+      "cidr": "10.20.2.0/26",
+      "kind": "pod",
+      "name": "pod-2",
+      "representative_ip": "10.20.2.10",
+      "team": 2,
+      "vlan": 102
+    },
+    {
+      "cidr": "10.20.3.0/26",
+      "kind": "pod",
+      "name": "pod-3",
+      "representative_ip": "10.20.3.10",
+      "team": 3,
+      "vlan": 103
+    },
+    {
+      "cidr": "10.20.4.0/26",
+      "kind": "pod",
+      "name": "pod-4",
+      "representative_ip": "10.20.4.10",
+      "team": 4,
+      "vlan": 104
+    },
+    {
+      "cidr": "10.20.5.0/26",
+      "kind": "pod",
+      "name": "pod-5",
+      "representative_ip": "10.20.5.10",
+      "team": 5,
+      "vlan": 105
+    },
+    {
+      "cidr": "10.20.6.0/26",
+      "kind": "pod",
+      "name": "pod-6",
+      "representative_ip": "10.20.6.10",
+      "team": 6,
+      "vlan": 106
+    },
+    {
+      "cidr": "10.20.7.0/26",
+      "kind": "pod",
+      "name": "pod-7",
+      "representative_ip": "10.20.7.10",
+      "team": 7,
+      "vlan": 107
+    },
+    {
+      "cidr": "10.20.8.0/26",
+      "kind": "pod",
+      "name": "pod-8",
+      "representative_ip": "10.20.8.10",
+      "team": 8,
+      "vlan": 108
+    },
+    {
+      "cidr": "10.20.9.0/26",
+      "kind": "pod",
+      "name": "pod-9",
+      "representative_ip": "10.20.9.10",
+      "team": 9,
+      "vlan": 109
+    },
+    {
+      "cidr": "10.20.10.0/26",
+      "kind": "pod",
+      "name": "pod-10",
+      "representative_ip": "10.20.10.10",
+      "team": 10,
+      "vlan": 110
+    },
+    {
+      "cidr": "10.20.11.0/26",
+      "kind": "pod",
+      "name": "pod-11",
+      "representative_ip": "10.20.11.10",
+      "team": 11,
+      "vlan": 111
+    },
+    {
+      "cidr": "10.20.12.0/26",
+      "kind": "pod",
+      "name": "pod-12",
+      "representative_ip": "10.20.12.10",
+      "team": 12,
+      "vlan": 112
+    },
+    {
+      "cidr": "10.20.13.0/26",
+      "kind": "pod",
+      "name": "pod-13",
+      "representative_ip": "10.20.13.10",
+      "team": 13,
+      "vlan": 113
+    },
+    {
+      "cidr": "10.20.14.0/26",
+      "kind": "pod",
+      "name": "pod-14",
+      "representative_ip": "10.20.14.10",
+      "team": 14,
+      "vlan": 114
+    },
+    {
+      "cidr": "10.20.15.0/26",
+      "kind": "pod",
+      "name": "pod-15",
+      "representative_ip": "10.20.15.10",
+      "team": 15,
+      "vlan": 115
+    },
+    {
+      "cidr": "10.20.16.0/26",
+      "kind": "pod",
+      "name": "pod-16",
+      "representative_ip": "10.20.16.10",
+      "team": 16,
+      "vlan": 116
+    },
+    {
+      "cidr": "10.40.1.0/26",
+      "kind": "target",
+      "name": "target-1",
+      "representative_ip": "10.40.1.10",
+      "team": 1,
+      "vlan": 201
+    },
+    {
+      "cidr": "10.40.2.0/26",
+      "kind": "target",
+      "name": "target-2",
+      "representative_ip": "10.40.2.10",
+      "team": 2,
+      "vlan": 202
+    },
+    {
+      "cidr": "10.40.3.0/26",
+      "kind": "target",
+      "name": "target-3",
+      "representative_ip": "10.40.3.10",
+      "team": 3,
+      "vlan": 203
+    },
+    {
+      "cidr": "10.40.4.0/26",
+      "kind": "target",
+      "name": "target-4",
+      "representative_ip": "10.40.4.10",
+      "team": 4,
+      "vlan": 204
+    },
+    {
+      "cidr": "10.40.5.0/26",
+      "kind": "target",
+      "name": "target-5",
+      "representative_ip": "10.40.5.10",
+      "team": 5,
+      "vlan": 205
+    },
+    {
+      "cidr": "10.40.6.0/26",
+      "kind": "target",
+      "name": "target-6",
+      "representative_ip": "10.40.6.10",
+      "team": 6,
+      "vlan": 206
+    },
+    {
+      "cidr": "10.40.7.0/26",
+      "kind": "target",
+      "name": "target-7",
+      "representative_ip": "10.40.7.10",
+      "team": 7,
+      "vlan": 207
+    },
+    {
+      "cidr": "10.40.8.0/26",
+      "kind": "target",
+      "name": "target-8",
+      "representative_ip": "10.40.8.10",
+      "team": 8,
+      "vlan": 208
+    },
+    {
+      "cidr": "10.40.9.0/26",
+      "kind": "target",
+      "name": "target-9",
+      "representative_ip": "10.40.9.10",
+      "team": 9,
+      "vlan": 209
+    },
+    {
+      "cidr": "10.40.10.0/26",
+      "kind": "target",
+      "name": "target-10",
+      "representative_ip": "10.40.10.10",
+      "team": 10,
+      "vlan": 210
+    },
+    {
+      "cidr": "10.40.11.0/26",
+      "kind": "target",
+      "name": "target-11",
+      "representative_ip": "10.40.11.10",
+      "team": 11,
+      "vlan": 211
+    },
+    {
+      "cidr": "10.40.12.0/26",
+      "kind": "target",
+      "name": "target-12",
+      "representative_ip": "10.40.12.10",
+      "team": 12,
+      "vlan": 212
+    },
+    {
+      "cidr": "10.40.13.0/26",
+      "kind": "target",
+      "name": "target-13",
+      "representative_ip": "10.40.13.10",
+      "team": 13,
+      "vlan": 213
+    },
+    {
+      "cidr": "10.40.14.0/26",
+      "kind": "target",
+      "name": "target-14",
+      "representative_ip": "10.40.14.10",
+      "team": 14,
+      "vlan": 214
+    },
+    {
+      "cidr": "10.40.15.0/26",
+      "kind": "target",
+      "name": "target-15",
+      "representative_ip": "10.40.15.10",
+      "team": 15,
+      "vlan": 215
+    },
+    {
+      "cidr": "10.40.16.0/26",
+      "kind": "target",
+      "name": "target-16",
+      "representative_ip": "10.40.16.10",
+      "team": 16,
+      "vlan": 216
+    },
+    {
+      "cidr": "10.10.30.0/24",
+      "kind": "scoring",
+      "name": "scoring",
+      "representative_ip": "10.10.30.10",
+      "team": null,
+      "vlan": 30
+    },
+    {
+      "cidr": "10.10.50.0/25",
+      "kind": "institutional",
+      "name": "institutional-a",
+      "representative_ip": "10.10.50.10",
+      "team": null,
+      "vlan": null
+    },
+    {
+      "cidr": "10.10.52.0/25",
+      "kind": "institutional",
+      "name": "institutional-b",
+      "representative_ip": "10.10.52.10",
+      "team": null,
+      "vlan": null
+    },
+    {
+      "cidr": "172.16.1.0/24",
+      "kind": "management",
+      "name": "management",
+      "representative_ip": "172.16.1.250",
+      "team": null,
+      "vlan": null
+    }
+  ],
+  "teams": 16
+}

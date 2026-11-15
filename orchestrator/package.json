@@ -1,0 +1,17 @@
+{
+  "name": "cyberrange-orchestrator",
+  "version": "0.1.0",
+  "description": "CyberRange-Net orchestrator (C5): round lifecycle, provisioning, verification gate, reset",
+  "private": true,
+  "main": "src/index.js",
+  "bin": {
+    "cyberrange-orchestrator": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "UNLICENSED"
+}

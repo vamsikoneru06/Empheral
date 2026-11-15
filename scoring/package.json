@@ -1,0 +1,19 @@
+{
+  "name": "cyberrange-scoring",
+  "version": "0.1.0",
+  "description": "CyberRange-Net scoring engine: flag submissions, service polling, append-only ledger, leaderboard API",
+  "private": true,
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "5.3.0",
+    "mysql2": "3.24.6"
+  }
+}

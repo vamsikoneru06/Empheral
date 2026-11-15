@@ -1,0 +1,70 @@
+# CyberRange-Net topology. The single source of truth for generated network config.
+# After any change: python -m compiler validate topology.yaml && python -m compiler build topology.yaml -o out/
+
+profile: simulation            # simulation (4 teams). The 16-team production profile is topology.production.yaml.
+teams: 4
+
+addressing:
+  institutional: 10.10.0.0/16
+  pods:          10.20.0.0/16    # team N -> 10.20.N.0/26 (third octet = N)
+  targets:       10.40.0.0/16    # team N -> 10.40.N.0/26
+  management:    172.16.1.0/24   # config-compiler.md example says 172.16.0.0/16; the contract segment is 172.16.1.0/24
+  pod_prefix:    26
+  target_prefix: 26
+
+vlans:
+  pod_base:      100             # team N -> VLAN 100+N
+  target_base:   200             # team N -> VLAN 200+N
+  management:    99              # added: carries device management SVIs; no trunk or access port uses it
+  native_unused: 999
+  blackhole:     666
+
+scoring:
+  vlan: 30                       # added: contract segment table
+  cidr: 10.10.30.0/24            # added: contract segment table
+  device: SW-DIST-EXER
+  engine_port: GigabitEthernet1/0/9
+  validator_port: GigabitEthernet1/0/10
+  engine_ip:    10.10.30.10
+  validator_ip: 10.10.30.11
+
+institutional:                   # added: routed ports on the cores, no VLAN
+  - { name: institutional-a, cidr: 10.10.50.0/25, device: SW-CORE-A, port: GigabitEthernet1/0/10 }
+  - { name: institutional-b, cidr: 10.10.52.0/25, device: SW-CORE-B, port: GigabitEthernet1/0/10 }
+
+target_roles:                    # identical for every team
+  web:         10
+  db:          20
+  workstation: 30
+  dc:          40
+  fileserver:  50
+  beacon:      60
+
+devices:
+  - { name: SW-CORE-A,     model: c3650, role: core,   mgmt: 172.16.1.10 }
+  - { name: SW-CORE-B,     model: c3650, role: core,   mgmt: 172.16.1.11 }
+  - { name: SW-DIST-EXER,  model: c3650, role: dist,   zone: exercise, mgmt: 172.16.1.20 }
+  - { name: SW-POD-01,     model: c2960, role: access, team: 1, kind: pod,    mgmt: 172.16.1.31 }
+  - { name: SW-POD-02,     model: c2960, role: access, team: 2, kind: pod,    mgmt: 172.16.1.32 }
+  - { name: SW-POD-03,     model: c2960, role: access, team: 3, kind: pod,    mgmt: 172.16.1.33 }
+  - { name: SW-POD-04,     model: c2960, role: access, team: 4, kind: pod,    mgmt: 172.16.1.34 }
+  - { name: SW-TGT-01,     model: c2960, role: access, team: 1, kind: target, mgmt: 172.16.1.41 }
+  - { name: SW-TGT-02,     model: c2960, role: access, team: 2, kind: target, mgmt: 172.16.1.42 }
+  - { name: SW-TGT-03,     model: c2960, role: access, team: 3, kind: target, mgmt: 172.16.1.43 }
+  - { name: SW-TGT-04,     model: c2960, role: access, team: 4, kind: target, mgmt: 172.16.1.44 }
+  - { name: SW-MGMT,       model: c2960, role: mgmt,   mgmt: 172.16.1.50 }
+
+# Trunks. Each team's access uplink carries only that team's VLAN (R2).
+# Distribution port for pod-N is Gi1/0/N; for target-N it is Gi1/0/(4+N).
+links:
+  - { a: SW-POD-01, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/1, kind: trunk, vlans: [101] }
+  - { a: SW-POD-02, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/2, kind: trunk, vlans: [102] }
+  - { a: SW-POD-03, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/3, kind: trunk, vlans: [103] }
+  - { a: SW-POD-04, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/4, kind: trunk, vlans: [104] }
+  - { a: SW-TGT-01, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/5, kind: trunk, vlans: [201] }
+  - { a: SW-TGT-02, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/6, kind: trunk, vlans: [202] }
+  - { a: SW-TGT-03, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/7, kind: trunk, vlans: [203] }
+  - { a: SW-TGT-04, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/8, kind: trunk, vlans: [204] }
+
+options:
+  packet_tracer_safe: false      # true -> R8 uses 'eq 80' instead of 'established' (see FALLBACK-NOTICE.txt)

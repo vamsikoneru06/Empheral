@@ -1,0 +1,1275 @@
+{
+  "ran_at": "2026-11-15T08:33:54.238Z",
+  "profile": "simulation",
+  "backend": "config-evaluation",
+  "scope": "Config-level evaluation of the compiled IOS in out/*.cfg: ingress ACL first match, trunk pruning, connected-SVI routing. Not live packets.",
+  "pairs_tested": 99,
+  "probes": 396,
+  "violations": 0,
+  "passed": false,
+  "assertions": {
+    "team_to_team_denied": true,
+    "target_to_scoring_denied": true,
+    "scoring_to_target_permitted": true,
+    "exercise_to_institutional_denied": true,
+    "mgmt_plane_unreachable": true,
+    "mgmt_acl_counter_zero": true,
+    "environments_identical": true
+  },
+  "mgmt_acl_hits": 0,
+  "mgmt_deny_lines": 4,
+  "environment_hashes": {
+    "target-1": "c26aca18f0062f5c5d3ab5861f70aed007269f80575fc9c896318e8c2a76181a",
+    "target-2": "c26aca18f0062f5c5d3ab5861f70aed007269f80575fc9c896318e8c2a76181a",
+    "target-3": "c26aca18f0062f5c5d3ab5861f70aed007269f80575fc9c896318e8c2a76181a",
+    "target-4": "c26aca18f0062f5c5d3ab5861f70aed007269f80575fc9c896318e8c2a76181a"
+  },
+  "matrix": {
+    "pod-1": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-2": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-3": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    },
+    "pod-4": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      }
+    },
+    "scoring": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "target-2": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "target-3": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "target-4": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      }
+    },
+    "target-1": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "permit",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-2": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "permit",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-3": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "pod-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "permit",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-4": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    },
+    "target-4": {
+      "institutional-a": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "institutional-b": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "management": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "pod-4": {
+        "icmp": "permit",
+        "tcp-syn": "permit",
+        "tcp-ack": "permit",
+        "udp": "permit"
+      },
+      "scoring": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "permit",
+        "udp": "deny"
+      },
+      "target-1": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-2": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      },
+      "target-3": {
+        "icmp": "deny",
+        "tcp-syn": "deny",
+        "tcp-ack": "deny",
+        "udp": "deny"
+      }
+    }
+  },
+  "blocking_layers": {
+    "pod-1": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "target-1": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "target-2": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "target-3": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      },
+      "target-4": {
+        "icmp": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-1-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-1-IN:20"
+      }
+    },
+    "pod-2": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "target-1": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "target-2": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "target-3": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      },
+      "target-4": {
+        "icmp": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-2-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-2-IN:20"
+      }
+    },
+    "pod-3": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "target-1": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "target-2": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      },
+      "target-3": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "target-4": {
+        "icmp": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-3-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-3-IN:20"
+      }
+    },
+    "pod-4": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "target-1": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "target-2": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "target-3": {
+        "icmp": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-syn": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "tcp-ack": "acl:SW-DIST-EXER:POD-4-IN:20",
+        "udp": "acl:SW-DIST-EXER:POD-4-IN:20"
+      },
+      "target-4": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      }
+    },
+    "scoring": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-syn": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "tcp-ack": "acl:SW-DIST-EXER:SCORING-IN:50",
+        "udp": "acl:SW-DIST-EXER:SCORING-IN:50"
+      },
+      "target-1": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "target-2": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "target-3": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "target-4": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      }
+    },
+    "target-1": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "pod-1": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": null,
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "target-2": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "target-3": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      },
+      "target-4": {
+        "icmp": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-1-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-1-IN:30"
+      }
+    },
+    "target-2": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "pod-2": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": null,
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "target-1": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "target-3": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      },
+      "target-4": {
+        "icmp": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-2-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-2-IN:30"
+      }
+    },
+    "target-3": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "pod-3": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "pod-4": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": null,
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "target-1": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "target-2": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      },
+      "target-4": {
+        "icmp": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-3-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-3-IN:30"
+      }
+    },
+    "target-4": {
+      "institutional-a": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "institutional-b": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "management": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "pod-1": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "pod-2": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "pod-3": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "pod-4": {
+        "icmp": null,
+        "tcp-syn": null,
+        "tcp-ack": null,
+        "udp": null
+      },
+      "scoring": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": null,
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "target-1": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "target-2": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      },
+      "target-3": {
+        "icmp": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-syn": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "tcp-ack": "acl:SW-DIST-EXER:TGT-4-IN:30",
+        "udp": "acl:SW-DIST-EXER:TGT-4-IN:30"
+      }
+    }
+  },
+  "violation_details": [],
+  "trunk_violations": 1,
+  "trunk_violation_details": [
+    {
+      "device": "SW-DIST-EXER",
+      "interface": "GigabitEthernet1/0/5",
+      "rule": "R2",
+      "expected_allowed": [
+        201
+      ],
+      "observed_allowed": [
+        201,
+        202
+      ]
+    }
+  ],
+  "notes": [
+    "Sources are the 9 controlled segments. Institutional and management are destinations only.",
+    "Management-deny lines live on the core (EXER-EGRESS). No packet reaches the core in this model, so their hit count is zero by construction."
+  ]
+}

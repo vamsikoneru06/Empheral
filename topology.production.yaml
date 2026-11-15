@@ -1,0 +1,117 @@
+# CyberRange-Net topology. The single source of truth for generated network config.
+# After any change: python -m compiler validate topology.yaml && python -m compiler build topology.yaml -o out/
+
+profile: production            # 16 teams (FR-1.8). Same rules as the simulation profile.
+teams: 16
+
+addressing:
+  institutional: 10.10.0.0/16
+  pods:          10.20.0.0/16    # team N -> 10.20.N.0/26 (third octet = N)
+  targets:       10.40.0.0/16    # team N -> 10.40.N.0/26
+  management:    172.16.1.0/24   # config-compiler.md example says 172.16.0.0/16; the contract segment is 172.16.1.0/24
+  pod_prefix:    26
+  target_prefix: 26
+
+vlans:
+  pod_base:      100             # team N -> VLAN 100+N
+  target_base:   200             # team N -> VLAN 200+N
+  management:    99              # added: carries device management SVIs; no trunk or access port uses it
+  native_unused: 999
+  blackhole:     666
+
+scoring:
+  vlan: 30                       # added: contract segment table
+  cidr: 10.10.30.0/24            # added: contract segment table
+  device: SW-DIST-EXER
+  engine_port: GigabitEthernet1/0/33
+  validator_port: GigabitEthernet1/0/34
+  engine_ip:    10.10.30.10
+  validator_ip: 10.10.30.11
+
+institutional:                   # added: routed ports on the cores, no VLAN
+  - { name: institutional-a, cidr: 10.10.50.0/25, device: SW-CORE-A, port: GigabitEthernet1/0/10 }
+  - { name: institutional-b, cidr: 10.10.52.0/25, device: SW-CORE-B, port: GigabitEthernet1/0/10 }
+
+target_roles:                    # identical for every team
+  web:         10
+  db:          20
+  workstation: 30
+  dc:          40
+  fileserver:  50
+  beacon:      60
+
+devices:
+  - { name: SW-CORE-A,     model: c3650, role: core,   mgmt: 172.16.1.10 }
+  - { name: SW-CORE-B,     model: c3650, role: core,   mgmt: 172.16.1.11 }
+  - { name: SW-DIST-EXER,  model: c3650, role: dist,   zone: exercise, mgmt: 172.16.1.20 }
+  - { name: SW-POD-01,     model: c2960, role: access, team: 1, kind: pod,    mgmt: 172.16.1.31 }
+  - { name: SW-POD-02,     model: c2960, role: access, team: 2, kind: pod,    mgmt: 172.16.1.32 }
+  - { name: SW-POD-03,     model: c2960, role: access, team: 3, kind: pod,    mgmt: 172.16.1.33 }
+  - { name: SW-POD-04,     model: c2960, role: access, team: 4, kind: pod,    mgmt: 172.16.1.34 }
+  - { name: SW-POD-05,     model: c2960, role: access, team: 5, kind: pod,    mgmt: 172.16.1.35 }
+  - { name: SW-POD-06,     model: c2960, role: access, team: 6, kind: pod,    mgmt: 172.16.1.36 }
+  - { name: SW-POD-07,     model: c2960, role: access, team: 7, kind: pod,    mgmt: 172.16.1.37 }
+  - { name: SW-POD-08,     model: c2960, role: access, team: 8, kind: pod,    mgmt: 172.16.1.38 }
+  - { name: SW-POD-09,     model: c2960, role: access, team: 9, kind: pod,    mgmt: 172.16.1.39 }
+  - { name: SW-POD-10,     model: c2960, role: access, team: 10, kind: pod,    mgmt: 172.16.1.40 }
+  - { name: SW-POD-11,     model: c2960, role: access, team: 11, kind: pod,    mgmt: 172.16.1.41 }
+  - { name: SW-POD-12,     model: c2960, role: access, team: 12, kind: pod,    mgmt: 172.16.1.42 }
+  - { name: SW-POD-13,     model: c2960, role: access, team: 13, kind: pod,    mgmt: 172.16.1.43 }
+  - { name: SW-POD-14,     model: c2960, role: access, team: 14, kind: pod,    mgmt: 172.16.1.44 }
+  - { name: SW-POD-15,     model: c2960, role: access, team: 15, kind: pod,    mgmt: 172.16.1.45 }
+  - { name: SW-POD-16,     model: c2960, role: access, team: 16, kind: pod,    mgmt: 172.16.1.46 }
+  - { name: SW-TGT-01,     model: c2960, role: access, team: 1, kind: target, mgmt: 172.16.1.61 }
+  - { name: SW-TGT-02,     model: c2960, role: access, team: 2, kind: target, mgmt: 172.16.1.62 }
+  - { name: SW-TGT-03,     model: c2960, role: access, team: 3, kind: target, mgmt: 172.16.1.63 }
+  - { name: SW-TGT-04,     model: c2960, role: access, team: 4, kind: target, mgmt: 172.16.1.64 }
+  - { name: SW-TGT-05,     model: c2960, role: access, team: 5, kind: target, mgmt: 172.16.1.65 }
+  - { name: SW-TGT-06,     model: c2960, role: access, team: 6, kind: target, mgmt: 172.16.1.66 }
+  - { name: SW-TGT-07,     model: c2960, role: access, team: 7, kind: target, mgmt: 172.16.1.67 }
+  - { name: SW-TGT-08,     model: c2960, role: access, team: 8, kind: target, mgmt: 172.16.1.68 }
+  - { name: SW-TGT-09,     model: c2960, role: access, team: 9, kind: target, mgmt: 172.16.1.69 }
+  - { name: SW-TGT-10,     model: c2960, role: access, team: 10, kind: target, mgmt: 172.16.1.70 }
+  - { name: SW-TGT-11,     model: c2960, role: access, team: 11, kind: target, mgmt: 172.16.1.71 }
+  - { name: SW-TGT-12,     model: c2960, role: access, team: 12, kind: target, mgmt: 172.16.1.72 }
+  - { name: SW-TGT-13,     model: c2960, role: access, team: 13, kind: target, mgmt: 172.16.1.73 }
+  - { name: SW-TGT-14,     model: c2960, role: access, team: 14, kind: target, mgmt: 172.16.1.74 }
+  - { name: SW-TGT-15,     model: c2960, role: access, team: 15, kind: target, mgmt: 172.16.1.75 }
+  - { name: SW-TGT-16,     model: c2960, role: access, team: 16, kind: target, mgmt: 172.16.1.76 }
+  - { name: SW-MGMT,       model: c2960, role: mgmt,   mgmt: 172.16.1.100 }
+
+# Trunks. Each team's access uplink carries only that team's VLAN (R2).
+links:
+  - { a: SW-POD-01, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/1, kind: trunk, vlans: [101] }
+  - { a: SW-POD-02, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/2, kind: trunk, vlans: [102] }
+  - { a: SW-POD-03, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/3, kind: trunk, vlans: [103] }
+  - { a: SW-POD-04, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/4, kind: trunk, vlans: [104] }
+  - { a: SW-POD-05, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/5, kind: trunk, vlans: [105] }
+  - { a: SW-POD-06, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/6, kind: trunk, vlans: [106] }
+  - { a: SW-POD-07, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/7, kind: trunk, vlans: [107] }
+  - { a: SW-POD-08, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/8, kind: trunk, vlans: [108] }
+  - { a: SW-POD-09, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/9, kind: trunk, vlans: [109] }
+  - { a: SW-POD-10, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/10, kind: trunk, vlans: [110] }
+  - { a: SW-POD-11, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/11, kind: trunk, vlans: [111] }
+  - { a: SW-POD-12, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/12, kind: trunk, vlans: [112] }
+  - { a: SW-POD-13, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/13, kind: trunk, vlans: [113] }
+  - { a: SW-POD-14, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/14, kind: trunk, vlans: [114] }
+  - { a: SW-POD-15, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/15, kind: trunk, vlans: [115] }
+  - { a: SW-POD-16, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/16, kind: trunk, vlans: [116] }
+  - { a: SW-TGT-01, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/17, kind: trunk, vlans: [201] }
+  - { a: SW-TGT-02, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/18, kind: trunk, vlans: [202] }
+  - { a: SW-TGT-03, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/19, kind: trunk, vlans: [203] }
+  - { a: SW-TGT-04, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/20, kind: trunk, vlans: [204] }
+  - { a: SW-TGT-05, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/21, kind: trunk, vlans: [205] }
+  - { a: SW-TGT-06, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/22, kind: trunk, vlans: [206] }
+  - { a: SW-TGT-07, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/23, kind: trunk, vlans: [207] }
+  - { a: SW-TGT-08, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/24, kind: trunk, vlans: [208] }
+  - { a: SW-TGT-09, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/25, kind: trunk, vlans: [209] }
+  - { a: SW-TGT-10, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/26, kind: trunk, vlans: [210] }
+  - { a: SW-TGT-11, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/27, kind: trunk, vlans: [211] }
+  - { a: SW-TGT-12, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/28, kind: trunk, vlans: [212] }
+  - { a: SW-TGT-13, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/29, kind: trunk, vlans: [213] }
+  - { a: SW-TGT-14, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/30, kind: trunk, vlans: [214] }
+  - { a: SW-TGT-15, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/31, kind: trunk, vlans: [215] }
+  - { a: SW-TGT-16, a_port: GigabitEthernet0/1, b: SW-DIST-EXER, b_port: GigabitEthernet1/0/32, kind: trunk, vlans: [216] }
+
+options:
+  packet_tracer_safe: false      # true -> R8 uses 'eq 80' instead of 'established' (see FALLBACK-NOTICE.txt)

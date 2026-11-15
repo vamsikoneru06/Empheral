@@ -1,0 +1,25 @@
+{
+  "generator": "cyberrange-compiler",
+  "generator_version": "1.0",
+  "input": {
+    "file": "topology.yaml",
+    "sha256": "9903a5cfac394be723880aea9b2aee4ca8e5afc8154a5874a728b8afd5583502"
+  },
+  "outputs": {
+    "SW-CORE-A.cfg": "ce449e6c05e42f0cd549b76ad6e004b9dddafe6460890267bae8c07a5867480f",
+    "SW-CORE-B.cfg": "8f603224ec8fe5fa28a56fb62bbb7e25d4d7643abe1675072f987475f2818b31",
+    "SW-DIST-EXER.cfg": "97af0573a43ac5735f543b8d31d47ea5ded05a9598cb0e1905b258249b9c26ed",
+    "SW-MGMT.cfg": "2fefeea5022a175f41a2534bf9a9761fc450fb7a0a8ed4f0fd0d3e9dc41407fd",
+    "SW-POD-01.cfg": "3e5f80c50ed59b414cb7874273c004bc66ec23e139c325196a9c1facc882e585",
+    "SW-POD-02.cfg": "aa7912a1241c5b2d306d5de0d115162538eafa74468f8337c9eaed13696e37de",
+    "SW-POD-03.cfg": "06913efa5c9c93bccd7e8ee34492ab7caa5b54fae7a17c5c03ec9b053d2dbb47",
+    "SW-POD-04.cfg": "2c180f99e638e8f361b2f7a84f92a843250267ec164458868db9bc32d07b5be3",
+    "SW-TGT-01.cfg": "9fc31ea2204570b2d7a42d4b6c2fda3364da056d5be6bf26cd06e93bcdf40c85",
+    "SW-TGT-02.cfg": "58f24ea919cd9a4da1d954773db197bcf72b57df78526e826d79dd9dcd557b94",
+    "SW-TGT-03.cfg": "1cf76afdfcbb158d53cfe3b66a9fe5906afda16a0324f78ccd283c70534e70e2",
+    "SW-TGT-04.cfg": "d6a7195e472b1ff511013cad94db6bf25828be55d164fcff1d5efd049772a50b",
+    "expected-matrix.json": "78032fb9a5dc6fdbc831a11219a2aaf9903e1d5342b6a98b65eae3d4365bfa58",
+    "ip-allocation.csv": "a04999bd43567497b16443a9ff56b59cae609a5ea6c575b5edf0dcd3433a682c"
+  },
+  "packet_tracer_safe": false
+}

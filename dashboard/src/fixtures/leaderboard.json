@@ -1,0 +1,11 @@
+{
+  "round_id": 3,
+  "frozen": false,
+  "as_of": "2026-11-02T09:41:12Z",
+  "teams": [
+    { "rank": 1, "team_id": 2, "name": "Team 2", "score": 420.0, "services_up": 5, "services_total": 5 },
+    { "rank": 2, "team_id": 1, "name": "Team 1", "score": 310.0, "services_up": 4, "services_total": 5 },
+    { "rank": 3, "team_id": 4, "name": "Team 4", "score": 205.0, "services_up": 5, "services_total": 5 },
+    { "rank": 4, "team_id": 3, "name": "Team 3", "score": 150.0, "services_up": 3, "services_total": 5 }
+  ]
+}
